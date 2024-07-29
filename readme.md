@@ -2,6 +2,8 @@
 
 Este projeto é uma biblioteca online para jogadores de RPG, especialmente focado em Dungeons & Dragons 5ª Edição. Ele fornece tutoriais sobre como criar personagens, links para download de fichas e manuais, além de recursos adicionais para enriquecer suas sessões de jogo.
 
+<img src="https://ashiqurtech.com/cnt-ashtech/uploads/2021/07/Custom-Website-Design.png" alt="Custom Website Design" width="300" />
+
 ## Tecnologia Utilizada
 
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
