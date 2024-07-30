@@ -4,22 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="assets/imagens/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/styles.css">
     <title>Links Importantes</title>
 </head>
 <body>
     <h1>Sumário de Links</h1>
     <p>confira a nossa biblioteca para RPG com links e arquivos que podem ajudar você a construir suas fichas</p>
-    <img src="assets/imagens/image-removebg-preview.png" alt="Aventureiros na floresta" height="400">
+    <div class="container">
+        <img src="assets/imagens/image-removebg-preview.png" alt="Aventureiros na floresta" height="400">
+        <div>
+            <h2 id="titulo-2-link">Links para download</h2>
+            <ul class="negrito" id="list-download">
+                <li><a class="link-download" href="assets/arquivos/livro-do-jogador.pdf">Livro do jogador</a></li>
+                <li><a class="link-download" href="assets/arquivos/ficha-editavel.pdf">Ficha editável</a></li>
+                <li><a class="link-download" href="assets/arquivos/livro-do-mestre.pdf">Livro do Mestre</a></li>
+                <li><a class="link-download" href="assets/arquivos/manual-dos-monstros.pdf">Livros dos Monstros</a></li>
+            </ul>
+        </div>
+    </div>
 
-    <p><a href="index.html">Tutorial de como construir uma personagem</a></p>
+    <p class="link-page">
+        <a class="btn" href="index.html">
+            Tutorial de como construir uma personagem
+        </a>
+    </p>
 
-    <h2>Links para download</h2>
-    <ul>
-        <li><strong><a href="assets/arquivos/ficha-editavel.pdf">Ficha editável</a></strong></li>
-        <li><strong><a href="assets/arquivos/livro-do-jogador.pdf">Livro do jogador</a></strong></li>
-        <li><strong><a href="assets/arquivos/livro-do-mestre.pdf">Livro do Mestre</a></strong></li>
-        <li><strong><a href="assets/arquivos/manual-dos-monstros.pdf">Livros dos Monstros</a></strong></li>
-    </ul>
 
     <h2>Você pode assistir o tutorial a seguir para lhe ajudar</h2>
     <p>aqui vamos disponiblizar uma ficha de Druida já construida para uso e um video para construição de um personagem Druida.</p>
@@ -29,17 +38,17 @@
     <iframe width="560" height="315" src="https://www.youtube.com/embed/xoYLtvrlsnA?si=vH4mxOYKzRygYDLH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
     <form>
-        <h2>Entre em contato</h2>
-        <label for="name">Name:</label><br>
-        <input type="text" name="name"><br><br>
-        <label for="email">E-mail:</label><br>
-        <input type="text" name="email"><br><br>
-        <label for="mensagem">Assunto: </label><br>
-        <textarea name="mensagem"></textarea><br><br>
+        <div class="contact">
+            <h2>Entre em contato</h2>
+            <label for="name" class="label-form">Name:</label>
+            <input type="text" name="name" class="input-form">
+            <label for="email" class="label-form">E-mail:</label>
+            <input type="text" name="email" class="input-form">
+            <label for="mensagem" class="label-form">Assunto: </label>
+            <textarea name="mensagem" class="input-form"></textarea>
+        </div>
         <button>Enviar</button>
     </form>
-
-    <br>
 
     <blockquote>"O êxito da vida não se mede pelo caminho que você conquistou, mas sim pelas dificuldades que superou no caminho.", Abraham Lincoln.</blockquote>
 </body>

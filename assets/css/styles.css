@@ -1,0 +1,109 @@
+*{
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+    background-color: #e8e8e8;
+    font-family: "Open Sans", sans-serif;
+    margin-left: 10px;
+}
+
+.contact{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-form{
+    margin: 10px;
+}
+
+.label-form{
+    margin-left: 10px;
+}
+
+form{
+    margin-bottom: 40px;
+}
+
+form button{
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+}
+
+.negrito span{
+    font-weight: 700;
+}
+
+.tabela {
+            width: 80%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .tabela td, th {
+            border: 1px solid #000000;
+            padding: 8px;
+        }
+
+        .tabela th{
+            background-color: #4CAF50;
+            color: white;
+        }
+
+.maior{
+    color: red;
+    font-weight: 700; /* Negrito */
+}
+
+.titulo-3{
+    margin-top: 50px;
+}
+
+.link-page{
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.link-page .btn {
+    background-color: #4CAF50; 
+    color: white; 
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.5s;
+    margin-left: -4px;
+}
+
+.link-page .btn:hover {
+    background-color: #45a049;
+}
+
+#list-download li{
+    margin: 35px;
+}
+
+.link-download{
+    background-color: #047507; 
+    color: white; 
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.5s;
+}
+
+.link-download:hover {
+    background-color: #45a049;
+}
+
+#titulo-2-link{
+    margin-left: 70px;
+    font-size: 30px;
+}

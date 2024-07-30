@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="assets/imagens/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/styles.css">
     <title>Home</title>
 </head>
 <body>
@@ -11,7 +12,13 @@
     <p>confira a nossa biblioteca para RPG com links e arquivos que podem ajudar você a construir suas fichas</p>
     <img src="https://www.greenmangaming.com/blog/wp-content/uploads/2018/10/rpgs-blog-890x606.jpg" alt="Aventureiros na floresta" height="400">
 
-    <p><a href="second-page.html">Links importantes e arquivos para download</a></p>
+    <p class="link-page">
+        <a class="btn" href="second-page.html">
+            Links importantes e arquivos para download
+        </a>
+    </p>
+
+    
 
     <h2>Como Criar uma Ficha para um RPG Dungeons & Dragons 5ª Edição</h2>
     <P>Criar uma ficha para Dungeons & Dragons 5ª Edição (D&D 5e) é um processo essencial para jogar o RPG. A ficha do personagem registra todas as informações necessárias sobre o personagem que você interpretará no jogo. Aqui está um guia passo a passo para criar sua ficha:</P>
@@ -20,10 +27,10 @@
         <li>
             <h3>Escolha do Conceito do Personagem</h3>
             <p>Antes de preencher a ficha, pense no conceito do seu personagem:</p>
-            <ul>
-                <li><strong>Raça:</strong> Cada raça oferece habilidades únicas e características. Exemplos incluem humanos, elfos, anões, etc</li>
-                <li><strong>Classe:</strong> A classe define as habilidades e o papel do personagem. Exemplos incluem guerreiro, mago, ladino, etc.</li>
-                <li><strong>História e Personalidade:</strong> Pense na história de fundo, traços de personalidade, ideais, vínculos e defeitos do seu personagem.
+            <ul class="negrito">
+                <li><span>Raça:</span> Cada raça oferece habilidades únicas e características. Exemplos incluem humanos, elfos, anões, etc</li>
+                <li><span>Classe:</span> A classe define as habilidades e o papel do personagem. Exemplos incluem guerreiro, mago, ladino, etc.</li>
+                <li><span>História e Personalidade:</span> Pense na história de fundo, traços de personalidade, ideais, vínculos e defeitos do seu personagem.
                 </li>
             </ul>
         </li>
@@ -34,24 +41,24 @@
         <li>
             <h3>Preencher as Informações Básicas</h3>
             <p>No topo da ficha, preencha as informações básicas:</p>
-            <ul>
-                <li><strong>Nome do Personagem</strong></li>
-                <li><strong>Classe e Nível</strong></li>
-                <li><strong>Raça</strong></li>
-                <li><strong>Antecedente:</strong> O background do personagem que pode oferecer habilidades e proficiências adicionais</li>
-                <li><strong>Alinhamento:</strong> Representa a moralidade e a ética do personagem (ex. Leal e Bom, Caótico e Neutro).</li>
+            <ul class="negrito">
+                <li><span>Nome do Personagem</span></li>
+                <li><span>Classe e Nível</span></li>
+                <li><span>Raça</span></li>
+                <li><span>Antecedente:</span> O background do personagem que pode oferecer habilidades e proficiências adicionais</li>
+                <li><span>Alinhamento:</span> Representa a moralidade e a ética do personagem (ex. Leal e Bom, Caótico e Neutro).</li>
             </ul>
         </li>
         <li>
             <h3>Atributos</h3>
             <p>Os atributos são fundamentais para definir as capacidades do seu personagem:</p>
-            <ul>
-                <li><strong>Força (FOR)</strong></li>
-                <li><strong>Destreza (DES)</strong></li>
-                <li><strong>Constituição (CON)</strong></li>
-                <li><strong>Inteligência (INT)</strong></li>
-                <li><strong>Sabedoria (SAB)</strong></li>
-                <li><strong>Carisma (CAR)</strong></li>
+            <ul class="negrito">
+                <li><span>Força (FOR)</span></li>
+                <li><span>Destreza (DES)</span></li>
+                <li><span>Constituição (CON)</span></li>
+                <li><span>Inteligência (INT)</span></li>
+                <li><span>Sabedoria (SAB)</span></li>
+                <li><span>Carisma (CAR)</span></li>
             </ul>
             <p>Distribua pontos para esses atributos usando um dos métodos: distribuição padrão, rolagem de dados ou compra de pontos.</p>
 
@@ -59,44 +66,44 @@
             <p>Você tem os seguintes valores para distribuir para as suas habilidades [15-14-13-12-10-8]</p>
 
             <p>Druida:</p>
-            <table>
+            <table class="tabela">
                 <tr>
-                    <td>Atributos:</td>
-                    <td>FOR</td>
-                    <td>DES</td>
-                    <td>CON</td>
-                    <td>INT</td>
-                    <td>SAB</td>
-                    <td>CAR</td>
+                    <th>Atributos:</th>
+                    <th>FOR</th>
+                    <th>DES</th>
+                    <th>CON</th>
+                    <th>INT</th>
+                    <th>SAB</th>
+                    <th>CAR</th>
                 </tr>
                 <tr>
-                    <td>valores:</td>
+                    <td>Valores:</td>
                     <td>8</td>
                     <td>14</td>
                     <td>13</td>
                     <td>12</td>
-                    <td>15</td>
+                    <td class="maior">15</td>
                     <td>10</td>
                 </tr>
             </table>
             
             <p>Mago:</p>
-            <table>
+            <table class="tabela">
                 <tr>
-                    <td>Atributos:</td>
-                    <td>FOR</td>
-                    <td>DES</td>
-                    <td>CON</td>
-                    <td>INT</td>
-                    <td>SAB</td>
-                    <td>CAR</td>
+                    <th>Atributos:</th>
+                    <th>FOR</th>
+                    <th>DES</th>
+                    <th>CON</th>
+                    <th>INT</th>
+                    <th>SAB</th>
+                    <th>CAR</th>
                 </tr>
                 <tr>
-                    <td>valores:</td>
+                    <td>Valores:</td>
                     <td>10</td>
                     <td>14</td>
                     <td>13</td>
-                    <td>15</td>
+                    <td class="maior">15</td>
                     <td>12</td>
                     <td>8</td>
                 </tr>
@@ -121,13 +128,13 @@
         </li>
         <li>
             <h3>Pontos de Vida e Classe de Armadura</h3>
-            <p><strong>Pontos de Vida (PV):</strong> Baseado na classe e modificador de Constituição.</p>
-            <p><strong>Classe de Armadura (CA):</strong> Determinada pelo tipo de armadura e modificador de Destreza.</p>
+            <p><span>Pontos de Vida (PV):</span> Baseado na classe e modificador de Constituição.</p>
+            <p><span>Classe de Armadura (CA):</span> Determinada pelo tipo de armadura e modificador de Destreza.</p>
         </li>
         <li>
             <h3>Iniciativa e Deslocamento</h3>
-            <p><strong>Iniciativa:</strong> Determinada pelo modificador de Destreza.</p>
-            <p><strong>Deslocamento:</strong> A velocidade que o personagem pode se mover por turno, geralmente em pés (ex. 30 pés).</p>
+            <p><span>Iniciativa:</span> Determinada pelo modificador de Destreza.</p>
+            <p><span>Deslocamento:</span> A velocidade que o personagem pode se mover por turno, geralmente em pés (ex. 30 pés).</p>
         </li>
         <li>
             <h3>Características e Habilidades de Classe</h3>
@@ -145,23 +152,23 @@
             <h3>Exemplos</h3>
             <p>Para um personagem Drow Bard:</p>
             <ul>
-                <li><strong>Raça:</strong> Drow</li>
-                <li><strong>Classe:</strong> Bard</li>
-                <li><strong>Atributos:</strong> Priorize Carisma (para habilidades de Bard), seguidos de Destreza e Constituição.</li>
-                <li><strong>Proeficiências:</strong> Ferramentas musicais, algumas armas simples, magias.</li>
-                <li><strong>Magias e Habilidades:</strong> Anote as magias de bardo conhecidas e habilidades raciais dos Drow, como a visão no escuro.</li>
+                <li><span>Raça:</span> Drow</li>
+                <li><span>Classe:</span> Bard</li>
+                <li><span>Atributos:</span> Priorize Carisma (para habilidades de Bard), seguidos de Destreza e Constituição.</li>
+                <li><span>Proeficiências:</span> Ferramentas musicais, algumas armas simples, magias.</li>
+                <li><span>Magias e Habilidades:</span> Anote as magias de bardo conhecidas e habilidades raciais dos Drow, como a visão no escuro.</li>
             </ul>
         </li>
     </ol>
 
-    <h3>Dicas Finais</h3>
+    <h3 class="titulo-3">Dicas Finais</h3>
     <p>Revise os livros de regras e guias do jogador para entender completamente as opções disponíveis.</p>
     <p>Trabalhe com o Mestre do Jogo para ajustar a ficha conforme necessário para se adequar à campanha.</p>
     <p>Mantenha a ficha atualizada com novas habilidades, equipamentos e mudanças de nível à medida que a campanha avança.</p>
 
     <p>Com a ficha pronta, você estará preparado para mergulhar nas aventuras épicas de Dungeons & Dragons!</p>
 
-    <h3>Encontre o nosso endereço</h3>
+    <h3 class="titulo-3">Encontre o nosso endereço</h3>
 
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29398.60428674551!2d-43.200900663652845!3d-22.91980498093688!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997fbbf0688d6b%3A0xc444f12c61c36e0!2sSanta%20Teresa%2C%20Rio%20de%20Janeiro%20-%20RJ!5e0!3m2!1spt-BR!2sbr!4v1722016837596!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
